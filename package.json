@@ -1,0 +1,33 @@
+{
+  "name": "elonlar-doskasi",
+  "version": "1.0.0",
+  "description": "Elonlar doskasi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "elonlar"
+  ],
+  "author": "Niyozbek Allaberdiyev",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^3.1.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "handlebars": "^4.7.7",
+    "handlebars-paginate": "^0.1.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.6",
+    "multer": "^1.4.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
